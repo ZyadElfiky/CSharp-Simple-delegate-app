@@ -5,7 +5,7 @@ namespace Mini_Employee_System_using_delegate
 {
     class Report
     {
-        
+        // delegate is object that reference on function
         public delegate bool ProssesSalary(Employee e);
 
         public void ProcessEmployee(Employee[] employees,string title ,ProssesSalary process)
